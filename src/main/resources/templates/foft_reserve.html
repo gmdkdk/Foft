@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>결제 준비</title>
+</head>
+<body>
+    <form action="/api/v1/payment" method="post">
+        <input type="text"   id="order_id"        name="order_id"        placeholder="order_id"      value="test99999999"> <br><br>
+        <input type="text"   id="order_name"      name="order_name"      placeholder="orderName"     value="포프트 라떼"> <br><br>
+        <input type="text"   id="customer_email"  name="customer_email"  placeholder="customerEmail" value="wltkddn9590@test.test"> <br><br>
+        <input type="text"   id="customer_name"   name="customer_name"   placeholder="customerName"  value="상우"> <br><br>
+        <input type="number" id="total_amt"       name="total_amt"       placeholder="total_amt"     value="1000"> <br><br>
+        <input type="submit" id="go_payment" value="결제하러 가기">
+    </form>
+
+</body>
+</html>
